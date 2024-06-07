@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <script>
+        // Function to check if the device is a mobile phone
+        function isMobilePhone() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+
+        // Function to redirect to desktop view
+        function redirectToDesktopView() {
+            window.location.href = "https://secret-society.netlify.app/"; // Replace with the URL of your desktop version
+        }
+
+        // Check if the device is a mobile phone
+        if (isMobilePhone()) {
+            // If on a mobile phone, prompt the user to switch to desktop view
+            var confirmDesktopView = confirm(" We need big screen atleast 14 inch screen to complete your wish, in small screen devices like mobile phones this wishing technique will not work, sorry..You are using mobile phone to open this webiste, i'am sorry to say this please use desktop or mac to open this webiste.");
+            if (confirmDesktopView) {
+                redirectToDesktopView();
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- Your website content goes here -->
+</body>
+
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Submission</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Submit Form</h2>
+  <form id="myForm" class="form">
+    <div class="form-group">
+      <label for="name">Write Your Full Name here:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Write Your Only 1 wish in one sentence</label>
+      <textarea id="email" name="email" rows="4" required></textarea>
+    </div>
+    <button type="submit" id="submitBtn">Submit</button>
+  </form>
+  <div class="progress">
+    <div id="progressBar" class="progress-bar"></div>
+  </div>
+  <div id="message" class="message"></div>
+</div>
+
+
+<div class="container1">
+  <img src="gh.jpg" alt="Image Description" class="custom-image">
+  <h2>Submit Form</h2>
+  <!-- Rest of your form HTML -->
+</div>
+
+<div class="container2">
+  <img src="gh7.jpg" alt="Image Description" class="custom-image2">
+  <h2></h2>
+  <!-- Rest of your form HTML -->
+</div>
+
+</div>
+
+
+
+<div class="comment-box">
+  <textarea class="comment-textarea" placeholder="Write your comment here..."></textarea>
+     <button type="button" onclick="alert('Hi your comment submitted sucessfully, your comment will be posted live after the AI review')" style="width: 200px;">Submit Your comment</button>
+</div>
+
+
+
+</script>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fake Comments</title>
+<link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+<div class="comments-container" id="commentsContainer">
+</div>
+
+<script src="script1.js"></script>
+</body>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

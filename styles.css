@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('r.gif'); /* Replace 'background.jpg' with the path to your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* Hide horizontal scrollbars */
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease; /* Fade-in animation */
+  width: 30%; /* Adjust the width as needed */
+}
+
+.custom-image2 {
+  width: 200px; /* Adjust width as needed */
+  height: 100; /* Maintains aspect ratio */
+  margin-left: 190px; /* Adjust margin to move the image to the right */
+}
+
+
+.custom-image2 {
+  transform: scale(3.9); /* Adjust the scale factor as needed */
+}
+
+.container2 {
+  position: absolute;
+  top: 40%;
+  left: 85%;
+  transform: translate(-50%, -30%);
+  background-color: rgba(255, 255, 255, 0); /* White with 0% opacity */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease; /* Fade-in animation */
+  width: 30%; /* Adjust the width as needed */
+}
+
+
+/* Rest of your CSS styles */
+
+
+.form {
+  text-align: center; /* Center-align the form content */
+}
+button[type="submit"] {
+  width: 100%; /* Set the width of the submit button to 100% */
+  margin-top: 20px; /* Add some top margin for spacing */
+}
+
+
+.form {
+  text-align: center; /* Center-align the form content */
+}
+
+button[type="submit"] {
+  width: 100%; /* Set the width of the submit button to 100% */
+  margin-top: 20px; /* Add some top margin for spacing */
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+button {
+  width: calc(100% - 40px); /* Adjust the width of the input fields and button */
+  padding: 15px; /* Increase padding for better appearance */
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Add margin between elements */
+}
+
+textarea {
+  resize: none; /* Prevent textarea resizing */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.progress {
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
+
+.message {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #d4edda;
+  color: #155724;
+  border-radius: 5px;
+  display: none;
+}
+
+.image-text-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.image-text-container img {
+  width: 100px; /* Adjust the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Add margin to the right for spacing */
+}
+
+.image-text-container img {
+  width: 200px; /* Adjust the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 50px; /* Add margin to the right for spacing */
+}
+ 
+.custom-image {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintains aspect ratio */
+  margin-right: 20px; /* Adjust margin for positioning */
+}
+
+
+
+.custom-image {
+  width: 400px; /* Adjust width as needed */
+  height: 455; /* Maintains aspect ratio */
+  margin-right: 1px; /* Adjust margin for positioning */
+margin-right: 10px; /* Adjust margin for positioning */
+  margin-top: 90px; /* Adjust margin to move the image down */
+}
+
+
+.custom-image2 {
+  width: 100px; /* Adjust width as needed */
+  height: 115; /* Maintains aspect ratio */
+  margin-right: 1px; /* Adjust margin for positioning */
+margin-right: 110px; /* Adjust margin for positioning */
+  margin-top: 180px; /* Adjust margin to move the image down */
+}
+
+.custom-image2 {
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Maintains aspect ratio */
+  position: relative;
+  top: -130px; /* Adjust to move the image up */
+  left: -60px; /* Adjust to move the image to the right */
+}
+
+overflow-y: scroll; /* Enable vertical scrolling */
+  /* Additional styles for body */

@@ -1,0 +1,97 @@
+.comment {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.comment-text {
+  background-color: #f0f2f5; /* Light gray background */
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 1.4;
+  border: 1px solid #ddd; /* Light gray border */
+  max-width: 200px; /* Adjust the maximum width of the comment box */
+}
+
+.comment-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.comment-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.comment-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.comment-content {
+  flex: 1;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.comment-author {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #385898; /* Facebook blue */
+}
+
+.comment-time {
+  color: #90949c; /* Facebook gray */
+  font-size: 0.8em;
+}
+
+.comment-text {
+  background-color: #f0f2f5; /* Light gray background */
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 1.4;
+  border: 1px solid #ddd; /* Light gray border */
+}
+
+.comment {
+  display: flex;
+}
+
+
+.comment {
+  display: flex;
+}
+
+
+body {
+  overflow-y: scroll; /* Enable vertical scrolling */
+  /* Additional styles for body */
+}
+
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px; /* Adjust padding to maintain button size */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto; /* Reset width to auto */
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
