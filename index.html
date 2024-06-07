@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <script>
-       // Function to check if the device is a mobile phone
+// Function to check if the device is a mobile phone
 function isMobilePhone() {
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
@@ -15,9 +15,9 @@ function redirectToDesktopView() {
     window.location.href = "https://thesecret-society.github.io/illuminsociety/"; // Replace with the URL of your desktop version
 }
 
-// Function to redirect to the willing link
-function redirectToWillingLink() {
-    window.location.href = "https://your-willing-link.com"; // Replace with your willing link
+// Function to redirect to another page if Cancel is clicked
+function redirectToAlternativePage() {
+    window.location.href = "https://your-alternative-page.com"; // Replace with the URL of your alternative page
 }
 
 // Check if the device is a mobile phone
@@ -27,7 +27,7 @@ if (isMobilePhone()) {
     if (confirmDesktopView) {
         redirectToDesktopView();
     } else {
-        redirectToWillingLink();
+        redirectToAlternativePage();
     }
 }
 
